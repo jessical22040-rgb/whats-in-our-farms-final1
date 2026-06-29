@@ -1,0 +1,230 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body::-webkit-scrollbar{
+	display:none;
+	margin:0;
+}
+body {
+	margin: 0;
+	margin-bottom:25rem;
+}
+/*navbar text styling*/
+li,a,h3,h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.8vw;
+  color: white;
+  text-decoration: none;
+}
+/*entire nav div*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #76876f;
+  height: 2vw;
+  border-style: solid;
+  border-width: 0.15vw;
+  border-color:#edd443;
+}
+/*left aligned text nav*/
+h3 {
+  padding-left: 0.5vw;
+}
+/*triangles above link pages*/
+.nav__links li a:hover:after {
+  border-left: solid transparent 0.521vw;
+  border-right: solid transparent 0.521vw;
+  border-top: solid #edd443 0.521vw;
+  position: absolute;
+  top: -0.575vw;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -0.677vw;
+  width: 0;
+  box-sizing: content-box;
+}
+/*nav links*/
+.nav__links {
+  list-style: none;
+}
+/*nav links*/
+.nav__links li {
+  display: inline-block;
+  padding: 0vw 1.042vw;
+  position: relative;
+  left: -8vw;
+}
+/*nav links hover*/
+.activepage {
+  color: #edd443;
+}
+.activepage1 {
+  color: #edd443;
+}
+/*header gif centering*/
+.image-container {
+  position: relative;
+  display: inline-block;
+
+}
+/*header gif centering*/
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*header gif overlay*/
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 46%; 
+  transform: translate(-50%, -50%);   
+  padding: 0.521vw 1.042vw; 
+  font-size: 2.3vw; 
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  
+  font-weight: 500;
+  font-style: normal;
+}
+/*header gif overlay vertical line*/
+.vl {
+  border-left: 0.313vw solid #EDD443;
+  height: 1.8vw;
+  padding-bottom:1.1vw;
+  padding-left:0.7vw;
+}
+h1 {
+  text-align: center;
+  font-size: 1.2vw;
+  padding-top: 6vw;
+  font-family: "Roboto Condensed", sans-serif;
+  
+  font-weight: 500;
+  font-style: normal;
+  color: #2e2e2e;
+  text-decoration: none;
+}
+h5 {
+  text-align: center;
+  font-size: 1vw;
+  padding-top: 0.2vw;
+  padding-bottom:2vw;
+  font-family: "Roboto Condensed", sans-serif;
+  
+  font-weight: 350;
+  font-style: normal;
+  color: #2e2e2e;
+  text-decoration: none;
+}
+hr {
+	width:55vw;
+	height:0.2vw;
+	align-items:center;
+	background-color:#76876f;
+}  
+.text1{
+	padding-left:23vw;
+	font-family: "Roboto Condensed", sans-serif;
+	
+	font-weight: 450;
+	font-style: normal;
+	color: #2e2e2e;
+	font-size:0.8vw; 
+	padding-bottom:2vw;
+}	
+.grid {
+	display: grid;
+	grid-template-columns: 16.3vw 16.3vw 16.3vw;
+	grid-gap: 2.4vw;
+	justify-content: center;
+	align-items:center;
+}
+
+
+#subtitle {
+  height: 9vw;
+}
+
+ .image-container {
+        position: relative;
+        display: inline-block;
+ }
+.image-container img {
+        display: block;
+        width: auto;
+        height: 14vw;
+}
+.image-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+		width:auto;
+        height: 14vw;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        opacity: 0;
+        transition: opacity 0.5s;
+		width:15.3vw;
+		
+ }
+.image-container:hover .image-overlay {
+        opacity: 1;
+}
+ p {
+	font-family: "Roboto Condensed", sans-serif;
+	
+	font-weight: 450;
+	font-style: normal;
+	color: #ffffff;
+	font-size:0.8vw;
+	padding-left: 0.8vw;
+	padding-top: 0.67vw;
+	text-align:left;
+	padding-right:0vw;
+	display:inline-block;
+
+ }
+ h2 {
+	font-family: "Roboto Condensed", sans-serif;
+	
+	font-weight: 450;
+	font-style: normal;
+	color:  #edd443;
+	font-size:1vw;
+	padding-left: 0.8vw;
+	padding-top: 0.5vw;
+	text-align:left;
+	display:inline-block;
+ }
+h6 {
+	font-family: "Roboto Condensed", sans-serif;
+	
+	font-weight: 450;
+	font-style: normal;
+	color: #ffffff;
+	font-size:0.8vw;
+    position: absolute;
+    top: 7.5vw;
+    left: 0.8vw;
+
+}
+.center {
+	float:right;
+	padding-top:1vw;
+	padding-right:4vw;
+	width:7vw;
+}
+.game {
+	width:16vw;
+	height:auto;
+	position: absolute;
+    top: 35vw;
+    left: 4vw;
+}
