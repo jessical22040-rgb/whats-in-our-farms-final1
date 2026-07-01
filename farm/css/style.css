@@ -305,7 +305,7 @@ h5 {
 	  position: absolute;
 	  right: 0;
 	  background-color: #f9f9f9;
-	  min-width: 160px;
+	  min-width: 16px;
 	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	  z-index: 3;
 	}
@@ -330,13 +330,13 @@ h5 {
 
 
 	h1 {
-		top: 55vw;
+		top: 50vw;
 		left: 9vw;
 		font-size: 3rem;
 	} 
 
 	h2 {
-		top: 66vw;
+		top: 60vw;
 		left: 9vw;
 		font-size: 3rem;
 	}
@@ -378,7 +378,7 @@ h5 {
 	}
 	
 	.learn-box {
-		top:70vh;
+		top:65vh;
 		left:22.5vw;
 		width: 25vw;
 		height: 7vw;
@@ -417,7 +417,7 @@ h5 {
 	
 	.next-box {
 		position: absolute;
-		top:70vw;
+		top:75vw;
 		left:55vw;
 		width: 23vw;
 		height: 30vw;
@@ -427,7 +427,7 @@ h5 {
 
 	.horse-container {
 		position: absolute;
-		top:70vw;
+		top:75vw;
 		left:69.5vw;
 		width: 17.4vw;
 	}
