@@ -2,7 +2,7 @@ const data = [
     { image1: 'images/sheep1.jpg', 
 	image2: 'images/sheep2.jpeg', 
 	image3: 'images/sheep3.jpg', 
-	title: 'Clun Forest Lamb', 
+	title: 'Clun Forest', 
 	subtitle: 'This sheep breed are known for being hardy and orginate from Clun Forest in Shropshire, England', 
 	subtitle2: ' A fun fact is they often have twins! ' },
 	
