@@ -257,7 +257,7 @@ p {
 	  position: absolute;
 	  right:0;
 	  background-color: #f9f9f9;
-	  min-width: 160px;
+	  min-width: 16px;
 	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	  z-index: 3;
 	}
@@ -322,17 +322,17 @@ p {
 	}
 	
 	.right-arrow {
-		left: 50vw;
+		left: 53vw;
 		top:80vh;
 	}
 	.left-arrow {
-		left: 38vw;
+		left: 35vw;
 		top: 80vh;
 	}
 	
 	.circles {
-		width: 150vw;
-		height: 76vh;
+		width: 160vw;
+		height: 72vh;
 		left: -25vw;
 		top: 21vh;
 	}
